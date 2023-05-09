@@ -50,6 +50,8 @@ int main() {
         }
         data = vo.value;
         voAnalyzer.insertData(data);
+
+        limits = true;   //set limits with first file only
     }
 
     //calculate Vdd SPC
