@@ -18,7 +18,7 @@ parser::parser(char delim, string file) {
 void parser::readFile() {
     ifstream file;
     file.open(_file);
-    string line, word, name, temp;
+    string line, name, temp;
     getline(file, temp);   //ignore first line (header row)
     while (getline(file, line)) {
         stringstream str_strm(line);

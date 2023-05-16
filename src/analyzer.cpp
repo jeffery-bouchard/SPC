@@ -1,7 +1,6 @@
 #include <vector>
 #include <numeric>
 #include <cmath>
-#include <algorithm>
 #include "../include/analyzer.h"
 
 using namespace std;
